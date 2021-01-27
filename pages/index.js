@@ -9,19 +9,10 @@ import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-
-const QuizContainer = styled.div`
-  width: 100%;
-  height: calc(100vh - 45px);
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    height: 100vh;
-    padding: 15px;
-  }
-`;
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
+import QuizContainer from '../src/components/QuizContainer';
+import QuizLogo from '../src/components/QuizLogo';
 
 export default function Home() {
   const router = useRouter();
@@ -33,9 +24,10 @@ export default function Home() {
         <title>Dark Souls Quiz</title>
       </Head>
       <QuizContainer>
+        <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Dark Souls</h1>
+            <h1>Quiz</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={(e) => {
@@ -43,17 +35,17 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <input
+              <Input
+                name="nomeDoUsuario"
                 onChange={(text) => {
                   setName(text.target.value);
                 }}
                 placeholder="Ser das cinzas, digite seu nome"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar como
-                {' '}
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`jogar como ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>

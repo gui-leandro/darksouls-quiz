@@ -1,32 +1,58 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://i.ibb.co/8sZrfMP/background.jpg",
+  "title": "Quiz Dark Souls",
+  "description": "Teste os seus conhecimentos sobre Dark Souls",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://media.giphy.com/media/YleijU6Jfr0lzR708w/giphy.gif",
+      "title": "Qual filha do manus representa o medo?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "answer": 0,
+      "alternatives": ["Alssana", "Elana", "Nadalia", "Nashandra"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://media.giphy.com/media/IiBlJr6FZTtvi/giphy.gif",
+      "title": "Objetivo da Way Of White",
+      "description": "Dark Souls 1",
+      "answer": 2,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Retomar as Catacumbas de Nito",
+        "Aprender todos os milagres",
+        "Recuperar o Rite of Kindling",
+        "Nenhuma das anteriores"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/kpDKiZGR6wB7pT7IVT/giphy.gif",
+      "title": "O que Oceiros segura em sua mão?",
+      "description": "Dark Souls 3",
+      "answer": 2,
+      "alternatives": [
+        "Nada",
+        "Um presente de sua amada",
+        "Seu filho",
+        "Uma espada"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/wK1sxPSmRntrG/giphy.gif",
+      "title": "Porque o rei sem nome foi banido por seu pai?",
+      "description": "Dark Souls 3",
+      "answer": 3,
+      "alternatives": [
+        "Fez algo com um dos irmãos",
+        "Planejar matar ele",
+        "Planejar tomar Anor Londo",
+        "Colaborar com um dragão"
       ]
     }
   ],
   "external": [""],
   "theme": {
     "colors": {
-      "primary": "#f44336",
-      "secondary": "#ca9933",
-      "mainBg": "#0C0E1B",
+      "primary": "#c19d53",
+      "secondary": "#c19d20",
+      "mainBg": "#333333",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
