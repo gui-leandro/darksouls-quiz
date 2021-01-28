@@ -45,6 +45,78 @@
         "Planejar tomar Anor Londo",
         "Colaborar com um dragão"
       ]
+    },
+    {
+      "image": "https://media.giphy.com/media/LLvqxmK3gOXLy/giphy.gif",
+      "title": "O que Solaire está procurando durante todo o jogo?",
+      "description": "Dark Souls 1",
+      "answer": 1,
+      "alternatives": [
+        "Sua família",
+        "Seu próprio sol pessoal",
+        "Uma arma específica",
+        "Vingança"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/h5REkBSNmLTP2/giphy.gif",
+      "title": "Quem é o único chefe no jogo que também é um personagem invocado em uma batalha de chefe diferente?",
+      "description": "Dark Souls 1",
+      "answer": 3,
+      "alternatives": [
+        "Artorias",
+        "Ornstein e Smough",
+        "Manus",
+        "Sif"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/twq99EDXbUs8BOdrTY/giphy.gif",
+      "title": "Onde a águia leva o jogador após a morte do perseguidor?",
+      "description": "Dark Souls 2",
+      "answer": 1,
+      "alternatives": [
+        "Oficina do McDuff",
+        "Bastilha perdida",
+        "Vale da colheita",
+        "Torre ads Chamas de Heide"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/QIhOh6VX7Tx8qQcMek/giphy.gif",
+      "title": "A espada do cavaleiro de heide tem a habilidade de...",
+      "description": "Dark Souls 2",
+      "answer": 3,
+      "alternatives": [
+        "Escuridão",
+        "Fogo",
+        "Sangramento",
+        "Raio"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l49JKCSoloVTGjmWQ/giphy.gif",
+      "title": "O sete do solaire em DS3 é adquirido...",
+      "description": "Dark Souls 3",
+      "answer": 0,
+      "alternatives": [
+        "No Pickle Pee",
+        "Fazendo a quest do Patches",
+        "Na estátua do pacto do Sol",
+        "No topo de Firelink"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/10ARoeG4fTeeje/giphy.gif",
+      "title": "Quantas classes iniciam com uma arma com dano de golpe?",
+      "description": "Dark Souls 3",
+      "answer": 1,
+      "alternatives": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ]
     }
   ],
   "external": [""],
@@ -54,7 +126,7 @@
       "secondary": "#c19d20",
       "mainBg": "#333333",
       "contrastText": "#FFFFFF",
-      "wrong": "#FF5722",
+      "wrong": "#FF4040",
       "success": "#4CAF50"
     },
     "borderRadius": "4px"
