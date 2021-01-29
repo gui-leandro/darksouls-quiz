@@ -26,7 +26,7 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Quiz</h1>
+            <h1>Bem-vindo(a) ao Quiz</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={(e) => {

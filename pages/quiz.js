@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
+import Lottie from 'react-lottie';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -7,6 +8,8 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import AlternativesForm from '../src/components/AlternativesForm';
 import Button from '../src/components/Button';
+
+import animationData from '../src/components/Animations/loading.json';
 
 function ResultWidget({ results }) {
   return (
@@ -42,6 +45,19 @@ function ResultWidget({ results }) {
 }
 
 function LoadingWidget() {
+  const [animationState, setAnimationState] = React.useState({
+    isStopped: false, isPaused: false,
+  });
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
+
   return (
     <Widget>
       <Widget.Header>
@@ -49,7 +65,13 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <Lottie
+          options={defaultOptions}
+          height={200}
+          width={200}
+          isStopped={animationState.isStopped}
+          isPaused={animationState.isPaused}
+        />
       </Widget.Content>
     </Widget>
   );
