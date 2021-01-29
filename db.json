@@ -119,7 +119,10 @@
       ]
     }
   ],
-  "external": [""],
+  "external": [
+    "https://quiz-livros.luizaacampos.vercel.app/",
+    "https://breaking-bad-quiz.eliasnepo.vercel.app/"
+  ],
   "theme": {
     "colors": {
       "primary": "#c19d53",
