@@ -33,7 +33,7 @@ $ git clone https://github.com/gui-leandro/darksouls-quiz.git
 ## 💻 Rode o Project na sua máquina
 
 ```bash
-# Vá para a pasta web
+# Vá para a pasta
 $ cd darksouls-quiz
 
 # Instale as depedências
