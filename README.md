@@ -36,7 +36,7 @@ $ git clone https://github.com/gui-leandro/darksouls-quiz.git
 # Vá para a pasta
 $ cd darksouls-quiz
 
-# Instale as depedências
+# Instale as dependências
 $ yarn install
 
 # Rode a aplicação
