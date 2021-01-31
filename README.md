@@ -10,7 +10,7 @@ Projeto desenvolvido durante a Imersão React da [Alura](https://www.alura.com.b
 
 ## 🔥 Sobre o projeto
 
-**Quiz Dark Souls** é uma plataforma desenvolvida em React utilizando do framework Next, muito famoso entre a comunidade dev, a plataforma se trata de um Quiz dobre os games Dark Souls 1 2 e 3, para aqueles que são fãs, possam medir seus conhecimentos sobre a franquia.
+**Quiz Dark Souls** é uma plataforma desenvolvida em React utilizando do framework Next, muito famoso entre a comunidade dev, a plataforma se trata de um Quiz sobre os games Dark Souls 1, 2 e 3, para aqueles que são fãs, possam medir seus conhecimentos sobre a franquia.
 
 <br>
 
@@ -30,7 +30,7 @@ Projeto desenvolvido durante a Imersão React da [Alura](https://www.alura.com.b
 $ git clone https://github.com/gui-leandro/darksouls-quiz.git
 ```
 
-## 💻 Rode o Project na sua máquina
+## 💻 Rode o Projeto na sua máquina
 
 ```bash
 # Vá para a pasta
