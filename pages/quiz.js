@@ -41,8 +41,8 @@ function ResultWidget({ results }) {
               {' '}
               Resultado:
               {result === true
-                ? <span style={{ color: 'green' }}> Acertou!</span>
-                : <span style={{ color: 'red' }}> Errou!</span>}
+                ? <span style={{ color: 'green' }}>  Acertou!</span>
+                : <span style={{ color: 'red' }}>  Errou!</span>}
             </li>
           ))}
         </ul>
