@@ -1,6 +1,7 @@
 {
   "bg": "https://i.ibb.co/8sZrfMP/background.jpg",
   "title": "Quiz Dark Souls",
+  "name": [],
   "description": "Teste os seus conhecimentos sobre Dark Souls",
   "questions": [
     {
@@ -72,7 +73,7 @@
     },
     {
       "image": "https://media.giphy.com/media/twq99EDXbUs8BOdrTY/giphy.gif",
-      "title": "Onde a águia leva o jogador após a morte do perseguidor?",
+      "title": "Onde a ave leva o jogador após a morte do perseguidor?",
       "description": "Dark Souls 2",
       "answer": 1,
       "alternatives": [

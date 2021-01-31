@@ -19,6 +19,10 @@ export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
 
+  function saveName() {
+    db.name.push(name);
+  }
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
@@ -42,6 +46,7 @@ export default function Home() {
           <Widget.Content>
             <form onSubmit={(e) => {
               e.preventDefault();
+              saveName();
               router.push(`/quiz?name=${name}`);
             }}
             >

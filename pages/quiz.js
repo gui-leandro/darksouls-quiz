@@ -9,13 +9,17 @@ import QuizContainer from '../src/components/QuizContainer';
 import AlternativesForm from '../src/components/AlternativesForm';
 import Button from '../src/components/Button';
 
-import animationData from '../src/components/Animations/loading.json';
+import animationData from '../src/screens/Quiz/animations/loading.json';
 
 function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        Tela de Resultado:
+        <span style={{ textTransform: 'uppercase' }}>
+          Resultado de
+          {' '}
+          {db.name[0]}
+        </span>
       </Widget.Header>
 
       <Widget.Content>
@@ -29,13 +33,16 @@ function ResultWidget({ results }) {
         <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
-              #
-              {index + 1}
+              <h4 style={{ color: db.theme.colors.secondary }}>
+                Questão
+                {' '}
+                {index + 1}
+              </h4>
               {' '}
               Resultado:
               {result === true
-                ? ' Acertou'
-                : ' Errou'}
+                ? <span style={{ color: 'green' }}> Acertou!</span>
+                : <span style={{ color: 'red' }}> Errou!</span>}
             </li>
           ))}
         </ul>
